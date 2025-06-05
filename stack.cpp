@@ -94,7 +94,19 @@ int main()
             case 1 :
             cout <<"Enter the value to push :";
             cin >> value;
-            stack.pop()
+            stack.pop();
+
+            case 2:
+            stack.pop();
+            break;
+
+            case 3 :
+            stack.pop();
+            break;
+
+            case 4 :
+            cout <<"Exiting program." <<endl; 
+
         }
 
 
