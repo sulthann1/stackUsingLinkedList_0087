@@ -16,5 +16,11 @@ class Node
 class Stack
 {
     private :
-    Node *top
-}
+    Node *top;
+
+    public :
+    Stack()
+    {
+        top = NULL;
+    }
+};
