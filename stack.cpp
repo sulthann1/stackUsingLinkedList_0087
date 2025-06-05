@@ -38,6 +38,13 @@ class Stack
     void pop ()
     {
         Node *temp = top;
-        if (isEmpty)
+        if (isEmpty())
+        {
+            cout << "Stack is Empty." <<temp ->data <<endl;
+            return;
+        }
+
+        cout << "Popped value :" <<temp -> data <<endl;
+        top = 
     }
 };
