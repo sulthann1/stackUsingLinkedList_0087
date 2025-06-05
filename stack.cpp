@@ -45,6 +45,7 @@ class Stack
         }
 
         cout << "Popped value :" <<temp -> data <<endl;
-        top = 
+        top = temp -> next;
+        delete temp; 
     }
 };
